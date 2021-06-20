@@ -1,0 +1,18 @@
+.wrapper {
+    display: grid;
+    /* grid-template-columns: 1fr 2fr 1fr; */
+    grid-template-columns: repeat(3, 1fr)
+    /* 
+    grid-column-gap: 1em;
+    grid-row-gap: 1em; 
+    */
+}
+
+.wrapper > div {
+    background: #EEE;
+    padding: 1em;
+}
+
+.wrapper > div:nth-child(odd) {
+    background: #DDD;
+}
